@@ -230,3 +230,36 @@ footer {
   line-height: 1.7;
   color: #333;
 }
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.blog-post {
+  border-left: 4px solid #b30000;
+  padding-left: 1em;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.blog-post h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+  color: #222;
+}
+
+.blog-post p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.read-more {
+  color: #b30000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
