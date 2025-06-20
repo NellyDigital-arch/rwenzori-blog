@@ -1,3 +1,4 @@
+
 /* style.css */
 * {
   margin: 0;
@@ -262,4 +263,10 @@ footer {
 }
 .read-more:hover {
   text-decoration: underline;
+}
+.form-container {
+  background: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
