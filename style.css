@@ -324,3 +324,76 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
+/* Navigation Styling */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #b30000;
+}
+
+#nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+#nav-links li a:hover {
+  color: #b30000;
+  border-bottom: 2px solid #b30000;
+}
+
+#nav-links li a.active {
+  color: #b30000;
+  font-weight: bold;
+}
+
+/* Button & Link Hover */
+button,
+.read-more {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Blog Post Hover Card Effect */
+.blog1-post {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog1-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* General Body and Typography Cleanup */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main.content {
+  padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+}
