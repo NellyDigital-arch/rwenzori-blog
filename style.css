@@ -424,3 +424,19 @@ footer a:hover {
 .social-icons {
   margin-top: 0.5em;
 }
+
+.btn {
+  background-color: #b30000;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #900;
+}
