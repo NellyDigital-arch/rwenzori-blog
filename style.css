@@ -599,8 +599,15 @@ section.reveal:hover {
   to { opacity: 1; }
 }
 .hero-section {
+  position: relative;
+  width: 100vw;               /* Full width of the viewport */
+  height: 60vh;               /* Adjust height as you prefer */
   background: url('images/hero.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .hero-section {
   position: relative;
   height: 90vh;
