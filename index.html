@@ -25,7 +25,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero reveal">
   <div class="hero-content">
     <h1>Welcome to Rwenzori SACCO</h1>
     <p>Together, we save. Together, we grow. Empowering communities in Rugendabara and beyond through trusted savings and credit services.</p>
@@ -42,12 +42,12 @@
   </div>
 </section>
 
-    <section class="hero">
+    <section class="hero reveal">
       <h1>Welcome to Rwenzori Savings and Credit Rugendabara</h1>
       <p>Empowering our community through savings, credits, and economic development.</p>
     </section>
 
-    <section class="highlights">
+    <section class="highlights reveal">
       <div class="card">
         <h3>Our Mission</h3>
         <p>To unite and empower members through savings, credits, mentorship, and solidarity funding.</p>
@@ -67,6 +67,18 @@
     <a href="mailto:info@rwenzorisacco.org">Email Us</a>
   </div>
 </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal().reveal('.reveal', {
+    delay: 200,
+    distance: '50px',
+    origin: 'bottom',
+    duration: 800,
+    easing: 'ease-in-out',
+    reset: false
+  });
+</script>
 
 </body>
 </html>
