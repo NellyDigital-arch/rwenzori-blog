@@ -538,3 +538,12 @@ nav {
 .btn:active {
   transform: scale(0.98);
 }
+/* Section card hover effect */
+section.reveal:hover {
+  background-color: #fafafa;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  padding: 1em;
+}
