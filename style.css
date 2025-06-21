@@ -293,3 +293,34 @@ footer {
   padding: 1em;
   border-radius: 8px;
 }
+.blog1-list {
+  display: grid;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.blog1-post {
+  background: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.blog1-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+.blog1-post h2 {
+  margin: 0.5em 0 0.2em;
+}
+
+.blog1-post .read-more {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #b30000;
+  text-decoration: none;
+  font-weight: bold;
+}
