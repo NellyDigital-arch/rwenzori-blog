@@ -440,3 +440,39 @@ footer a:hover {
 .btn:hover {
   background-color: #900;
 }
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: #fefefe;
+  border-bottom: 1px solid #eee;
+}
+
+.hero-content {
+  flex: 1 1 50%;
+  padding: 1em;
+}
+
+.hero-content h1 {
+  font-size: 2.2em;
+  color: #b30000;
+  margin-bottom: 0.5em;
+}
+
+.hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.hero-image {
+  flex: 1 1 40%;
+  padding: 1em;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
