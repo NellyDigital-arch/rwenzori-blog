@@ -476,3 +476,48 @@ footer a:hover {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
+#nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+#nav-links li a:hover {
+  color: #b30000;
+  border-bottom: 2px solid #b30000;
+}
+.btn {
+  background-color: #b30000;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #900;
+  transform: translateY(-2px);
+}
+.blog1-post {
+  background: #fff;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog1-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+img:hover {
+  filter: brightness(1.05);
+  transform: scale(1.02);
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
