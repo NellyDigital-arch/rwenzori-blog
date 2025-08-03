@@ -38,13 +38,11 @@ a:hover {
   top: 0;
   z-index: 999;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
-
 .top-nav ul {
   display: flex;
-  justify-content: center;
   gap: 2rem;
   list-style: none;
   margin: 0;
@@ -103,15 +101,16 @@ header.hero-red {
   color: #fff;
   padding: 5rem 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-header.hero-red h1 {
-  font-size: 2.7rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+header.hero-red h1,
+header.hero-red p {
+  margin-left: auto;
+  margin-right: auto;
 }
-
 header.hero-red p {
   font-size: 1.4rem;
   font-weight: 300;
@@ -271,4 +270,15 @@ h2 {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 768px) {
+  .top-nav {
+    align-items: center;
+  }
+
+  .top-nav ul {
+    align-items: center;
+    text-align: center;
+  }
+}
+
 
