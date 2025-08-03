@@ -23,6 +23,7 @@ header.hero-red p {
   font-weight: 400;
   letter-spacing: 0.8px;
   margin: 0;
+  color: #fff; 
 }
 /* Reset & Base */
 body {
@@ -337,6 +338,17 @@ h2:hover, h3:hover {
   color: #a00000;
   transform: translateY(-2px);
   text-shadow: 0 2px 8px rgba(196, 0, 0, 0.2);
+}
+h2, h3 {
+  color: #c40000;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+h2:hover, h3:hover {
+  color: #a00000;
+  transform: translateY(-1px);
+  text-shadow: 0 1px 6px rgba(196, 0, 0, 0.25);
 }
 
 
