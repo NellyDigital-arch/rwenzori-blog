@@ -25,6 +25,7 @@ a:hover {
 /* Header */
 header {
   background: url('images/group-photo.jpg') no-repeat center center/cover;
+
   color: #fff;
   padding: 4rem 2rem;
   text-align: center;
@@ -108,3 +109,4 @@ footer {
     flex-direction: column;
   }
 }
+
