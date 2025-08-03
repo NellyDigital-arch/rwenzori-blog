@@ -302,11 +302,10 @@ header.hero-red {
     justify-content: space-around;
     text-align: left;
   }
-body {
-  ...
-  background: url('your-background.jpg') no-repeat center center fixed;
-  background-size: cover;
+  body {
+  background: linear-gradient(to bottom right, #fcefee, #ffffff);
 }
+
 
 
 
