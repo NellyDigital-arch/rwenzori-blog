@@ -226,3 +226,49 @@ footer {
     flex-direction: column;
   }
 }
+/* ==== FINAL POLISH ==== */
+
+/* Alternate Section Backgrounds */
+section:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+section:nth-of-type(odd) {
+  background: rgba(250, 250, 250, 0.9);
+}
+
+/* Hero Header Shadow */
+header.hero-red {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Slightly Deeper Background Gradient */
+body {
+  background: linear-gradient(to bottom right, #fbe6e6, #ffffff);
+}
+
+/* Stronger Headings */
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Improve Mobile Padding */
+@media (max-width: 600px) {
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
