@@ -198,6 +198,74 @@ header.hero-red {
   padding: 5rem 2rem;
   text-align: center;
 }
+/* Nav Base */
+.top-nav {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 0.6rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #222;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.top-nav li a:hover {
+  color: #c40000;
+}
+
+/* Hamburger Toggle */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Mobile Style */
+@media (max-width: 768px) {
+  .top-nav ul {
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #c40000;
+    text-align: right;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 
 
 
