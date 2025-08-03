@@ -87,9 +87,15 @@ th, td {
   text-align: center;
 }
 
-th {
-  background: #c40000;
-  color: #fff;
+section {
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -264,7 +270,7 @@ header.hero-red {
     justify-content: space-between;
     align-items: center;
   }
-}
+
 .contact-section {
   background: #fff;
   padding: 3rem 2rem;
@@ -296,7 +302,13 @@ header.hero-red {
     justify-content: space-around;
     text-align: left;
   }
+body {
+  ...
+  background: url('your-background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
+
 
 
 
