@@ -109,4 +109,17 @@ footer {
     flex-direction: column;
   }
 }
+a {
+  color: #c40000;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #000;
+  background-color: #ffd9d9;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
 
