@@ -386,6 +386,10 @@ header.hero-red h1 {
   word-break: break-word;
   hyphens: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 
