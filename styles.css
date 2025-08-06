@@ -37,6 +37,10 @@ header.hero-red p {
   margin: 0;
   color: #fff; 
 }
+  html {
+  scroll-behavior: smooth;
+}
+
 /* Reset & Base */
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -416,6 +420,7 @@ html {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
