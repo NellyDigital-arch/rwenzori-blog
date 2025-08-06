@@ -18,15 +18,16 @@
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="menu-icon">&#9776;</label>
   <ul class="nav-links">
-   <li><a href="#home">HOME</a></li>
+  <li><a href="#home" class="nav-link">HOME</a></li>
+  <li><a href="#about" class="nav-link">ABOUT</a></li>
+  <li><a href="#mission-vision" class="nav-link">MISSION</a></li>
+  <li><a href="#activities" class="nav-link">WHAT WE DO</a></li>
+  <li><a href="#funding" class="nav-link">FUNDING</a></li>
+  <li><a href="#financials" class="nav-link">FINANCIALS</a></li>
+  <li><a href="#contact" class="nav-link">CONTACT</a></li>
+  <li><a href="#blog" class="nav-link">BLOG</a></li>
+</ul>
 
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#mission-vision">MISSION</a></li>
-    <li><a href="#activities">WHAT WE DO</a></li>
-    <li><a href="#funding">FUNDING</a></li>
-    <li><a href="#financials">FINANCIALS</a></li>
-    <li><a href="#contact">CONTACT</a></li>
-    <li><a href="#blog">BLOG</a></li>
 
   </ul>
 </nav>
@@ -149,9 +150,33 @@
 <script>
   AOS.init();
 </script>
+<script>
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if (scrollY >= sectionTop - sectionHeight / 3) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
+
 
 
 
