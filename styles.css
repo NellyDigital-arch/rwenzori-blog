@@ -477,6 +477,11 @@ html {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.nav-link.active {
+  color: #c40000;
+  border-bottom: 2px solid #c40000;
+}
+
 
 
 
