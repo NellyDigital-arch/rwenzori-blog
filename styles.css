@@ -370,6 +370,11 @@ h2:hover, h3:hover {
     padding: 1.5rem 1rem;
   }
 }
+header.hero-red h1 {
+  word-break: break-word;
+  hyphens: auto;
+}
+
 
 
 
