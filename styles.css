@@ -9,10 +9,6 @@ header.hero-red {
   justify-content: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-header.hero-red h1,
-header.hero-red p {
-  color: #fff !important;
-}
 
 header.hero-red h1 {
   font-size: 3rem;
@@ -22,6 +18,10 @@ header.hero-red h1 {
   line-height: 1.3;
   header.hero-red h1,
   }
+header.hero-red h1,
+header.hero-red p {
+  color: #fff !important;
+}
   
 header.hero-red h1 {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
