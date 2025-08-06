@@ -420,6 +420,37 @@ html {
 html {
   scroll-behavior: smooth;
 }
+.blog-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-list li {
+  margin-bottom: 1rem;
+}
+
+.blog-list a {
+  font-size: 1.1rem;
+  color: #c40000;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.blog-list a:hover {
+  color: #000;
+  background-color: #ffe9e9;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #c40000;
+  text-decoration: none;
+}
+
 
 
 
