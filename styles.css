@@ -579,6 +579,63 @@ header.hero-img p {
 .blog-list a:hover {
   color: #000;
 }
+/* Contact Section - Modern Slick Style */
+.contact-section {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-section:hover {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.contact-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #c40000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-item a {
+  color: #c40000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+}
+
 
 
 
