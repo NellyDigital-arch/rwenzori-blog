@@ -749,4 +749,18 @@ header .logo {
     font-size: 1rem;
   }
 }
+.hero-bg {
+  background-image: url('images/hero.jpg');   /* point to the images folder */
+  background-size: cover;                     /* fill the space */
+  background-position: center;                /* center the image */
+  background-repeat: no-repeat;               /* no tiling */
+  height: 60vh;                                /* adjust height as you like */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;                                /* make text visible */
+}
+
 
