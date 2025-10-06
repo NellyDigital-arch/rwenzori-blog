@@ -705,4 +705,46 @@ header .logo {
     font-size: 1rem;
   }
 }
+/* Hero header with solid teal background */
+.hero-bg {
+  background-color: #1abc9c;      /* solid color */
+  height: 60vh;                   /* 60% of viewport height */
+  display: flex;
+  flex-direction: column;         /* stack h1 and p vertically */
+  align-items: center;            /* center horizontally */
+  justify-content: center;        /* center vertically */
+  text-align: center;
+  color: #fff;                    /* white text */
+  font-family: 'Arial', sans-serif;
+  padding: 0 20px;                /* spacing for mobile */
+}
+
+/* Main heading */
+.hero-bg h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+/* Subheading */
+.hero-bg p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-bg {
+    height: 50vh;                 /* smaller on mobile */
+  }
+  .hero-bg h1 {
+    font-size: 2rem;
+  }
+  .hero-bg p {
+    font-size: 1rem;
+  }
+}
+
 
