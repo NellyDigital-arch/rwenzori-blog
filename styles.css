@@ -636,6 +636,42 @@ header.hero-img p {
   }
 }
 
+/* Make the nav bar a horizontal flex container */
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  /* pushes logo left, toggle right */
+  padding: 10px 20px;
+  background-color: #f8f8f8;       /* optional */
+}
+
+/* Logo stays on the left */
+header .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Toggle menu button on the right */
+#menu-toggle {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;               /* pushes it to the far right */
+}
+
+/* Optional: style nav links for desktop */
+#nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
 
 
 
