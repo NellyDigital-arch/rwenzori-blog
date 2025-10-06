@@ -788,6 +788,22 @@ header .logo {
     font-size: 1rem;
   }
 }
+.hero-bg {
+  background-image: url('assets/images/hero.jpg'); /* path to your image */
+  background-size: cover;        /* makes image cover the header */
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  /* prevents tiling */
+  height: 60vh;                  /* 60% of viewport height */
+  display: flex;
+  flex-direction: column;        /* stack text vertically */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;                   /* white text for readability */
+  font-family: Arial, sans-serif;
+  padding: 0 20px;               /* spacing for mobile */
+}
+
 
 
 
