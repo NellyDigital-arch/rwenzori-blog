@@ -824,5 +824,27 @@ header .logo {
     font-size: 1rem;
   }
 }
+.hero-bg p {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f1c40f;               /* warm golden accent color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+@keyframes fadeInUp {
+  0% { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 
