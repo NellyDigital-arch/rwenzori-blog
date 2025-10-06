@@ -671,6 +671,14 @@ header .logo {
   text-decoration: none;
   color: #333;
 }
+.group-photo.jpg {
+  background-image: url('assets/images/group-photo.jpg'); /* <-- path to your new image */
+  background-size: cover;        /* ensures the image covers the header */
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  /* prevents tiling */
+  height: 400px;                 /* adjust height as needed */
+  position: relative;            /* keeps overlay positioning correct */
+}
 
 
 
