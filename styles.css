@@ -1041,3 +1041,29 @@ header .logo {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Default (mobile-first) stays the same */
+.construction-message {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  max-width: 90%;
+}
+
+/* Larger design for desktop */
+@media (min-width: 768px) {
+  .construction-message {
+    padding: 4rem 6rem;
+    max-width: 800px;
+    border-radius: 25px;
+  }
+
+  .construction-message h1 {
+    font-size: 2.5rem;
+  }
+
+  .construction-message p {
+    font-size: 1.25rem;
+  }
+}
