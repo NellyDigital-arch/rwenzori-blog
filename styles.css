@@ -1067,3 +1067,7 @@ header .logo {
     font-size: 1.25rem;
   }
 }
+
+#construction-overlay {
+  display: none !important;
+}
