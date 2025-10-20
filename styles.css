@@ -1068,4 +1068,14 @@ header .logo {
   }
 }
 
+/* Hide the entire website content when overlay is active */
+body {
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Hide all main content behind overlay */
+body > *:not(#construction-overlay) {
+  display: none !important;
+}
+
 
